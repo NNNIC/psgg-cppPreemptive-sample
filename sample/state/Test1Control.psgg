@@ -12,7 +12,7 @@ check_excel_writable=no
 ------#======*<Guid(D13821FE-FA27-4B04-834C-CEC1E5670F48)>*======#------
 
 sheet=state-chart
-nameid_list=,n001,n002,n003,n004,n019,n005,,n01a,n006,,n021,n007,,n008,n009,n00a,n00b,,n00c,n00d,,n00e,n00f,,n010,n011,n01c,n01d,n01e,n01f,n020,,n012,n013,n014,n015,,n01b,n016,n017,n018,,,
+nameid_list=,n001,n002,n003,n004,n019,n005,,n01a,,n021,,n008,n009,n00a,n00b,,n00c,n00d,,n00e,n00f,,n010,n011,n01c,n01d,n01e,n01f,n020,,n012,n013,n014,n015,,n01b,n016,n017,n018,,,,
 stateid_list=,,,,s0001,s0002,s000e,s0003,s0010,,,,,,,,,,s000f
 max_name_id=33
 max_state_id=16
@@ -22,8 +22,6 @@ n002=state
 n003=state-cmt
 n004=state-ref
 n005=nextstate
-n006=embed
-n007=members
 n008=vars
 n009=init
 n00a=init-cmt
@@ -150,7 +148,7 @@ n018=100006
 sheet=config
 
 ###VARIOUS-CONTENTS-BEGIN###
-; The setting was created automatically. 2024/03/11 21:57:31
+; The setting was created automatically. 2024/03/11 22:12:27
 ; * pssgEditor version : 0.75.643.b6374744957205afe5ec793648f2597ffa833c76
 psggfile=@@@
 Test1Control.psgg
@@ -168,7 +166,7 @@ c_thumbnail=1
 c_contents=1
 force_display_outpin=0
 last_action=@@@
-init,Initilized
+init,Saved
 @@@
 target_pathdir=@@@
 /
@@ -183,7 +181,7 @@ nodegroup_pos_list=@@@
 [{"Key":"\/","Value":{"x":100,"y":100}}]
 @@@
 fillter_state_location_list=@@@
-[{"Key":"\/","Value":[{"Key":"S_START","Value":{"x":50,"y":100}},{"Key":"S_END","Value":{"x":1001,"y":114}},{"Key":"S_0001","Value":{"x":184,"y":100}},{"Key":"S_0000","Value":{"x":191,"y":262}},{"Key":"S_0002","Value":{"x":402,"y":262}},{"Key":"S_0003","Value":{"x":619,"y":262}}]}]
+[{"Key":"\/","Value":[{"Key":"S_START","Value":{"x":50,"y":100}},{"Key":"S_END","Value":{"x":1001,"y":114}},{"Key":"S_0001","Value":{"x":184,"y":100}},{"Key":"S_0000","Value":{"x":191,"y":262}},{"Key":"S_0002","Value":{"x":402,"y":262}},{"Key":"S_0003","Value":{"x":619,"y":262}},{"Key":"E_0000","Value":{"x":346,"y":425}}]}]
 @@@
 linecolor_data=@@@
 [{"color":{"knownColor":0,"name":null,"state":2,"value":4285493103},"pattern":"BACKTO_"}]
